@@ -1,0 +1,3632 @@
+/*font-face css start*/
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('../fonts/futura/Futura Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Futura Medium';
+    src: url('../fonts/futura/Futura Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Futura Regular';
+    src: url('../fonts/futura/Futura Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/gilroy/Gilroy-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'AcuminProExtraCondensed-Bold';
+    src: url('../fonts/accumin-pro/AcuminProExtraCondensed-Bold.otf') format('opentype');
+}
+/*font-face css start*/
+
+/*common css*/
+a {
+    outline: none !important;
+}
+ul {
+    margin-bottom:0;
+}
+.slick-slide {
+    outline:none !important;
+}
+input , textarea {
+    outline : none !important;
+}
+.row {
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.pad-zero {
+    padding:0 !important;
+}
+/*Homepage css start*/
+
+/* ++homepage section1++ */
+.homepage-section1 {
+    width: 100%;
+    float: left;
+    padding: 18% 9%;
+    background: url(../images/homepage-bg-section1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.homepage-section1 h2 {
+    color: #fff;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    letter-spacing: 4.5px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.homepage-section1 p {
+    color: #fff;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.homepage-section1 .button-div {
+    display: inline-block;
+    width: 100%;
+}
+a.button-explore {
+    width: 250px;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-decoration: none !important;
+    text-align: center;
+    height: 50px;
+    line-height: 19px;
+    -webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+a.button-explore:hover {
+     background-color:#fff;
+     color:#0045b6;
+}
+.homepage-section1 a.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 9%;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Futura Medium';
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+.scroll-down {
+    text-decoration:none !important;
+}
+.scroll-down img {
+    width: 15px;
+    margin-right: 12px;
+    vertical-align: bottom;
+}
+/* --homepage section1-- */
+
+/* ++homepage section2++ */
+.homepage-section2 {
+    width:100%;
+    float:left;
+}
+.homepage-section2-services {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 4% 5%;
+    text-align: center;
+}
+.homepage-section2-services h2 {
+    color: #0045b6;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.homepage-section2-services p {
+    color: #0a0a0a;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    width: 540px;
+    display: inline-block;
+    margin: 0;
+    opacity: 0.9;
+    font-weight: 300;
+}
+.homepage-section2-service-types {
+    width:100%;
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bhomepage-section2-service-type1 {
+    margin-left: -1px;
+}
+.col-50 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.bhomepage-section2-service-type1 {
+    background: url(../images/homepage-section2-service-type1-bg.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 15% 5%;
+    color: #fff;
+    min-height: 550px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bhomepage-section2-service-type1:before , html > /**/ body .bhomepage-section2-service-type2:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.bhomepage-section2-service-type1:hover:before {
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.2);
+}
+.bhomepage-section2-service-type2 {
+    background: url('../images/homepage-section2-service-type2-bg.jpg') no-repeat center center;
+    background-size:cover;
+    padding: 15% 5%;
+    color:#fff;
+    min-height:550px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position:relative;   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.bhomepage-section2-service-type2:hover:before {
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.2);
+}
+.homepage-section2-service-types h3 {
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 20px;
+    position:relative;
+    z-index:1;
+}
+.homepage-section2-service-types p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom:20px;
+    position:relative;
+    z-index:1;
+}
+a.btn_know_more {
+    background-color: #0045b6;
+    color: #fff !important;
+    padding: 16px 30px;
+    display: inline-block;
+    font-family: 'Futura Medium';
+    font-size: 11px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-decoration: none !important;
+    position: relative;
+    z-index: 1;
+}
+a.btn_know_more:before {
+    content: 'Know More';
+    background-color: #fff;
+    color: #0045b6 !important;
+    position: absolute;
+    top: 0%;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    padding: 16px 30px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    opacity: 0;
+}
+a.btn_know_more:hover:before {
+    visibility: visible;
+    transform: rotate(0deg);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+}
+/* --homepage section2-- */
+
+/* ++homepage section3++ */
+.homepage-section3 {
+    width: 100%;
+    float: left;
+    background: url('../images/homepage-bg-section3.jpg') no-repeat center center;
+    background-size:cover;
+    padding:5% 0;
+}
+.homepage-section3-part1 {
+    width: 400px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    color: #fff;
+}
+.homepage-section3-part2 {
+    width: 100%;
+    float: left;
+    padding-left: 8%;
+    color:#fff;
+    overflow:hidden;
+}
+.homepage-section3-part1 h5 {
+    font-family: 'Futura Medium';
+    font-size: 13px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    opacity: 0.9;
+}
+.homepage-section3-part1 h3 {
+    font-family: 'Futura Medium';
+    font-size: 2.5vw;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    width: 310px;
+}
+.homepage-section3-part1 p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.homepage-section3-part2 h2 {
+    font-family: 'Futura Medium';
+    font-size: 2.5vw;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 11px;
+}
+.homepage-section3-part2 h2 img {
+    width:33px;
+    margin-left:20px;
+}
+.slider-what-makes-different {
+    margin-right:-50px;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+.slider-what-makes-different .slider-item {
+    position: relative;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-what-makes-different .slider-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-what-makes-different .slider-item:hover:before {
+    content: '';
+    background-color: rgba(0,0,0,0.3);
+}
+.slider-what-makes-different .slider-item:hover div {
+    /* transform: scaleX(-1); */
+    position: relative;
+}
+.slider-what-makes-different .item h4 {
+    font-family: 'Futura Medium';
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+.slider-what-makes-different .item {
+    padding:0 13px;
+}
+.slider-what-makes-different .item div.slider-item {
+    background-color: #0045b6;
+    padding: 20px 20px;
+    border-radius: 13px;
+    height: 370px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+}
+.slider-what-makes-different {
+    margin-bottom: 0 !important;
+}
+.slider-what-makes-different .slick-dots {
+    bottom: 0px;
+}
+.slider-what-makes-different .slick-dots li button:before {
+    color: #fff;
+    font-size: 10px;
+    opacity: 0.25;
+}
+.slider-what-makes-different .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0045b6;
+}
+.slider-what-makes-different .slider-item-bg1 {
+    background: url('../images/wmd-slider-item-bg1.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg2 {
+    background: url('../images/wmd-slider-item-bg2.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg3 {
+    background: url('../images/wmd-slider-item-bg3.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg4 {
+    background: url('../images/wmd-slider-item-bg4.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg5 {
+    background: url('../images/wmd-slider-item-bg5.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg6 {
+    background: url('../images/wmd-slider-item-bg6.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg7 {
+    background: url('../images/wmd-slider-item-bg7.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg8 {
+    background: url('../images/wmd-slider-item-bg8.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg9 {
+    background: url('../images/wmd-slider-item-bg9.jpg') no-repeat center center;
+    background-size:cover;
+}
+.slider-what-makes-different .slider-item-bg10 {
+    background: url('../images/aggregation-bg.jpg') no-repeat center center;
+    background-size:cover;
+}
+
+
+.slider-what-makes-different .item div.slider-item div img {
+    margin: auto;
+    width: 80px;
+}
+.slider-what-makes-different .item div.slider-item div {
+    text-align:center;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+/* --homepage section3-- */
+
+/* ++homepage section4++ */
+.get-best-energy-rate-div {
+    width:100%;
+    float:left;
+    position: relative;
+}
+.get-best-energy-rate-div .bg-get-best-energy-rate-div img {
+    width:100%;
+}
+.get-best-energy-rate-div-inner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.get-best-energy-rate-div-txt {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.get-best-energy-rate-div-txt h2 {
+    font-family: 'Futura Medium';
+    font-size: 2.5vw;
+    line-height: 1.4;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.get-best-energy-rate-div-txt p {
+    font-family: 'Futura Medium';
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+    color:#fff;
+}
+a.get-best-energy-rate-div-btn {
+    width: 150px;
+    border: 2px solid #fff;
+    padding: 15px 10px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    font-size: 10.5px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-decoration: none !important;
+    text-align: center;
+    height: 50px;
+    line-height: 19px;
+    margin-top: 23px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+a.get-best-energy-rate-div-btn:hover {
+    background-color:#fff;
+    color:#0045b6;
+}
+.get-best-energy-rate-div-poweredby {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.get-best-energy-rate-div-poweredby span {
+    font-family: 'Futura Bold';
+    font-size: 16px;
+    text-transform:uppercase;
+}
+.get-best-energy-rate-div-poweredby img {
+    width: 28px;
+    margin: 0 5px;
+}
+/* --homepage section4-- */
+
+/* ++homepage section5++ */
+.homepage-section5 {
+    width: 100%;
+    float: left;
+    padding-left: 8%;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.homepage-section5 h2 {
+    color: #0649b8;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.homepage-section5 h2 img {
+    width: 33px;
+    margin-left: 5%;
+}
+.homepage-section5 p {
+    color: #0a0a0a;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    width: 60%;
+    display: inline-block;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.slider-our-suppliers {
+    margin-right:-9%;
+    /* padding-bottom: 40px; */
+    margin-bottom: 0 !important;
+    overflow:hidden;
+}
+.slider-our-suppliers .item {
+    padding:10px 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-our-suppliers .slick-dots {
+    bottom: 0;
+}
+.slider-our-suppliers .slick-dots li button:before {
+    color: #9e9e9e;
+    font-size: 40px;
+}
+.slider-our-suppliers .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0045b6;
+}
+.slider-our-suppliers img {
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    max-width: 150px;
+    background-color: #fff;
+    margin: auto;
+}
+.slider-our-suppliers .slick-current img {
+    margin-left: 0;
+}
+.homepage .values-div1 {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.slider-associates img {
+    max-width: 130px;
+    max-height: 120px;
+}
+/* --homepage section5-- */
+
+/* ++homepage section6++ */
+
+.homepage-section6 {
+    width: 100%;
+    float: left;
+    background: url(../images/homepage-bg-section6.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 15% 0;
+}
+.homepage-section6-txt {
+    margin-left: 7%;
+    padding: 0 10px;
+    color: #fff;
+    width: 37%;
+}
+.homepage-section6-txt h2 {
+    font-family: 'Futura Medium';
+    font-size: 2.5vw;
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.homepage-section6-txt h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.homepage-section6-txt h4 span {
+    margin-right:25px;
+}
+.homepage-section6-txt p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing:1px;
+}
+a.homepage-section6-btn {
+    width: 150px;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    font-size: 10.5px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-decoration: none !important;
+    text-align: center;
+    height: 50px;
+    line-height: 19px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.homepage-section6-btn:hover {
+    background-color: #fff;
+    color: #0045b6;
+}
+.homepage-section6-see-btn {
+    margin-left: 20px;
+    color: #fff !important;
+    font-family: 'Futura Medium';
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+.homepage-section6-see-btn:after {
+    content: '';
+    background: url(../images/thin-arr-rt.png) no-repeat center center;
+    background-size: 8px;
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+.homepage-section6-see-btn img {
+    width: 7px;
+    margin-left: 9px;
+}
+/* --homepage section6-- */
+
+
+/*Homepage css end*/
+
+/*Commercial page css start*/
+
+/* ++commercial section1++ */
+.commercial-section1 {
+    width: 100%;
+    float: left;
+    padding: 160px 9%;
+    background: url('../images/commercial-energy/commercial-banner.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.commercial-section1 h2 {
+    color: #fff;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    letter-spacing: 4.5px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.commercial-section1 p {
+    color: #fff;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.commercial-section1 .button-div {
+    display: inline-block;
+    width: 100%;
+}
+.commercial-section1 .button-div a.button-explore {
+    width:200px;
+}
+.commercial-section1 a.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 9%;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Futura Medium';
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+.btn-get-in-touch {
+    background-color: #0045b6;
+    color: #fff !important;
+    padding: 15px 30px;
+    display: inline-block;
+    font-family: 'Futura Medium';
+    font-size: 11px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-decoration: none !important;
+    border: 1px solid #0045b6;
+    height: 50px;
+    position: relative;
+    margin-left:15px;
+}
+.btn-get-in-touch:before {
+    content: 'get in touch with us';
+    background-color: #fff;
+    color: #0045b6 !important;
+    position: absolute;
+    top: 0%;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    padding: 16px 30px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    opacity: 0;
+}
+.btn-get-in-touch:hover:before {
+    visibility: visible;
+    transform: rotate(0deg);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+}
+
+/* --commercial section1-- */
+
+/* ++commercial section2++ */
+.commercial-section2 {
+    width: 100%;
+    float: left;
+    background-color:#fcfcfa;
+    background-size: cover;
+    padding: 10% 0;
+    background-color: #fcfcfa;
+    position:relative;
+}
+.commercial-section2-txt-div {
+    width: 500px;
+    margin-left: 9%;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+.commercial-section2-rt-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height:100%;
+}
+.commercial-section2-rt-img img {
+    width: unset;
+    height: 100%;
+    opacity: 0.8;
+}
+.commercial-section2-txt-div h4 {
+    color: #222222;
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.commercial-section2-txt-div h2 {
+    color: #0045b6;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.commercial-section2-div1 {
+    margin-bottom: 65%;
+}
+.commercial-section2-div2 p {
+    color: #272626;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom:20px;
+}
+.commercial-section2-div2 .button-div {
+    width:90%;
+}
+.commercial-section2-div2 a.button-explore {
+    color: #0045b6;
+    border-color: #0045b6;
+    width: 200px;
+}
+.commercial-section2-div2 a.button-explore:hover {
+    color: #fff;
+    background-color:#0045b6;
+}
+/* --commercial section2-- */
+
+/* ++commercial section3++ */
+.commercial-section3 {
+    width: 100%;
+    float: left;
+    background: url(../images/commercial-energy/commercial-bg-section3.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color:#fff;
+}
+.commercial-section3-container {
+    width: 82%;
+    margin: auto;
+    position:relative;
+}
+.commercial-section3-container span {
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+.commercial-section3-container span img {
+    height:33px;
+}
+.commercial-section3-div1 {
+    width: 600px;
+    margin-bottom: 10%;
+}
+.commercial-section3-div1 h2 {
+    font-family: 'Futura Medium';
+    font-size: 2.5vw;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.commercial-section3-div1 p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+.commercial-section3-div2 {
+    padding-left: 100px;
+    overflow: hidden;
+}
+.slider-industries {
+    margin-right: -50px;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+    padding-bottom: 50px;
+}
+.slider-industries .slick-list {
+    padding-left:0 !important;
+}
+.slider-industries .item {
+    padding: 0 13px;
+}
+.slider-industries .item div.slider-item {
+    background-color: #0045b6;
+    padding: 20px 20px;
+    border-radius: 13px;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.slider-industries .slider-item {
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-industries .slider-item-bg1 {
+    background: url(../images/commercial-energy/industries-served-bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg2 {
+    background: url(../images/commercial-energy/industries-served-bg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg3 {
+    background: url(../images/commercial-energy/industries-served-bg3.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg4 {
+    background: url(../images/commercial-energy/industries-served-bg4.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg5 {
+    background: url(../images/commercial-energy/industries-served-bg5.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg6 {
+    background: url(../images/commercial-energy/industries-served-bg6.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg7 {
+    background: url(../images/commercial-energy/industries-served-bg7.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg8 {
+    background: url(../images/commercial-energy/industries-served-bg8.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg9 {
+    background: url(../images/commercial-energy/church.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg10 {
+    background: url(../images/commercial-energy/mall.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slider-industries .slider-item-bg11 {
+    background: url(../images/commercial-energy/construction_image.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-industries .item div.slider-item div {
+    text-align: center;
+    position:relative;
+    z-index:1;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-industries .slider-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-industries .slider-item:hover:before {
+    content: '';
+    background-color: rgba(0,0,0,0.3);
+}
+.slider-industries .slider-item:hover {
+    /*transform: scaleX(-1);*/
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.slider-industries .slider-item:hover div {
+    /*transform: scaleX(-1);*/
+}
+.slider-industries .slick-dots {
+    bottom: 0;
+}
+.slider-industries .slick-dots li button:before {
+    color: #fff;
+    font-size: 10px;
+    opacity: 0.25;
+}
+.slider-industries .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0045b6;
+}
+.slider-industries .item div.slider-item div img {
+    margin: auto;
+    width: 80px;
+}
+.slider-industries .item h4 {
+    font-family: 'Futura Medium';
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    margin: 30px 0;
+    font-weight: 500;
+}
+.slider-industries .item p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 0;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    height: 135px;
+}
+/* --commercial section3-- */
+
+/* ++commercial section4++ */
+.commercial-section4 {
+    width: 100%;
+    float: left;
+    padding-left: 8%;
+    overflow: hidden;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.commercial-section4 .d-flex {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.commercial-section4 h2 {
+    color: #0649b8;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.commercial-section4 h2 span {
+    font-weight: 600;
+    font-size: 6vw;
+    display: block;
+    line-height: 1;
+}
+.commercial-section4 h4 {
+    color: #222222;
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.commercial-section4 p {
+    color: #272626;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.commercial-section4 h3 {
+    color: #0649b8;
+    font-size: 22px;
+    font-family: 'Futura Medium';
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.commercial-section4 h3 a:hover {
+    color: #0649b8;
+}
+.commercial-section4 h3 a:hover img {
+    margin-left: 25px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.commercial-section4 h3 img {
+    width: 21px;
+    margin-left: 20px;
+    margin-top: -3px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.h4-see-more {
+    color: #0649b8;
+    font-size: 16px;
+    font-family: 'Futura Medium';
+    margin-top: -10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.commercial-section4 .col-lg-5 {
+    margin-right:-2px;
+}
+.patrnrship-pattern {
+    width: 80%;
+    margin-left: auto;
+    margin-right: -2px;
+}
+/* --commercial section4-- */
+
+
+/*Commercial page css end*/
+
+
+/*Residential page css start*/
+
+/* ++Residential section1++ */
+.residential-energy-page .commercial-section1 {
+    background-image: url('../images/residential-energy/bg-banner-residential.jpg');
+}
+.residential-energy-page .commercial-section1 h2 span {
+    font-size:2.2vw;
+}
+/* --Residential section1-- */
+
+/* ++Residential section2++ */
+.residential-section2.commercial-section2.section2 {
+    background-color:#fbfbf9;
+}
+.commercial-section2-rt-innerdiv {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12%;
+}
+.commercial-section2-rt-innerdiv .blk-div {
+    width: 350px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    text-align: center;
+}
+.commercial-section2-rt-innerdiv .blk-div h4 {
+    color: #0045b6;
+    font-size: 2.2vw;
+    font-family: 'AcuminProExtraCondensed-Bold';
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.commercial-section2-rt-innerdiv .blk-div h2 {
+    color: #000;
+    font-size: 4vw;
+    font-family: 'AcuminProExtraCondensed-Bold';
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.commercial-section2-rt-innerdiv .blk-div a {
+    color:inherit;
+}
+.commercial-section2-rt-innerdiv .blk-div h5 {
+    color: #0045b6;
+    font-size: 25px;
+    font-family: 'AcuminProExtraCondensed-Bold';
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.2px;
+}
+.commercial-section2-rt-innerdiv .blk-div h3 {
+    color: #0045b6;
+    font-size: 2.2vw;
+    font-family: 'AcuminProExtraCondensed-Bold';
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 20px;
+    padding: 20px 44px;
+}
+.commercial-section2-rt-innerdiv .blk-div .btn-click-here {
+    background-color: #0045b6;
+    padding: 20px 20px;
+    color: #fff !important;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Futura Medium';
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+/* --Residential section2-- */
+
+
+/* ++Residential section3++ */
+.residential-section3 .commercial-section3-div2 {
+    padding:0 50px;
+}
+.residential-section3 .commercial-section3-div1 {
+    margin-bottom:50px;
+}
+.residential-section3-container .nav-pills>li {
+    margin-right:10px;
+}
+.residential-section3-container .nav-pills>li>a {
+    background-color: rgba(255,255,255,0.17);
+    color: #fff !important;
+    text-align: center;
+    padding: 14px 30px;
+    font-size: 14.5px;
+    letter-spacing: 1px;
+    font-family: canada-type-gibson, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 7px;
+}
+.residential-section3-container .nav-pills>li.active>a {
+    background-color: rgba(255,255,255,0.46);
+}
+.residential-section3-div2 {
+    margin-top:50px;
+}
+.residential-section3-div2 .col-lg-4 {
+    padding:0 10px;
+}
+.creditscore-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0045b6;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    color: #fff;
+    border:1.5px solid transparent;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.creditscore-block:hover {
+    border-color:#fff;
+    border-style:dashed;
+    background-color:transparent;
+}
+.creditscore-block a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.creditscore-block h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.creditscore-block img {
+    max-width:90%;
+    margin:auto;
+}
+.creditscore-block h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.creditscore-block h3 a {
+    font-size:24px;
+}
+.creditscore-block h3 a img {
+    width:25px;
+}
+.creditscore-blank-block h4 {
+    margin-top:0;
+}
+.creditscore-blank-block a:after {
+    content: '>';
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 1;
+    position: relative;
+    top: -2px;
+}
+/* --Residential section3-- */
+
+
+/*Residential page css end*/
+
+/*About us css start*/
+.about-page .commercial-section1 {
+    padding: 17% 9%;
+    background: url(../images/about-us/about-banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+.about-logo-slider-div {
+    width: 100%;
+    float: left;
+    padding: 40px 7%;
+    overflow: hidden;
+    margin-top: -6%;
+    background-color: #f6f6f6;
+    margin-bottom: 0;
+}
+.about-section2 {
+    width: 100%;
+    float: left;
+    background-color:#f6f6f6;
+}
+.about-section2-part1 {
+    width: 100%;
+    float: left;
+    padding: 0 6.5%;
+}
+.about-section2-part2 {
+    width: 100%;
+    float: left;
+    padding: 5% 6.5%;
+    text-align:center;
+}
+.about-section2-part1 .col-lg-4 {
+    padding: 0px 3.5%;
+}
+.about_slider {
+    margin-top: -150px;
+}
+.about_slider .slick-dots {
+    bottom: -35px;
+}
+.about_slider .slick-dots li button:before {
+    color: #9e9e9e;
+    font-size: 10px;
+}
+.about_slider .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0045b6;
+}
+.about-section2-blk {
+    padding: 0 20px;
+}
+.about-section2-txt-blk1 {
+    background-color: #174274;
+    color: #fff;
+    padding: 20px 30px;
+    height: 150px;
+    /* margin-top: -130px; */
+}
+.about-section2-blk img {
+    width:100%;
+}
+.about-section2-txt-blk1 h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.about-section2-txt-blk1 p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    opacity:0.8;
+}
+.about-section2-txt-blk1 span {
+    width: 60px;
+    height: 2px;
+    border-top: 1.5px solid #fff;
+    display: inline-block;
+    margin: 12px 0px;
+}
+.about-section2-part2 h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.about-section2-part2 h2 {
+    color: #0649b8;
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    margin-top: 23px;
+    margin-bottom: 4.5%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.about-section2-blk2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px #e1e1e1;
+    padding: 15% 20px;
+}
+.about-section2-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #deebff;
+    padding: 35px;
+    margin: auto;
+}
+.about-section2-img img {
+    width: 100%;
+}
+.about-section2-part2 .col-lg-4 {
+    padding: 0px 3.5%;
+}
+.about-section2-txt-blk2 h3 {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-top:25px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+}
+.about-section2-txt-blk2 p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-bottom:0;
+}
+.about-section3 {
+    width: 100%;
+    float: left;
+    padding: 5% 0 5% 4%;
+}
+.about-section3 .d-flex {
+    display:flex;
+    flex-wrap:wrap;
+}
+.about-section3-txt {
+    padding-right:40px;
+}
+.about-section3-txt h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.about-section3-txt h2 {
+    color: #0649b8;
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    margin-top: 10px;
+    margin-bottom: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.about-section3-txt p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.about-section3-img {
+    background: url(../images/about-us/future-img.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.about-section3 .d-flex .col-lg-8 {
+    margin-left:-2px;
+    width:65%;
+}
+.about-section3 .d-flex .col-lg-4 {
+    width:35%;
+}
+.about-section4 {
+    width: 100%;
+    float: left;
+    padding: 5% 6%;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+.about-section4 h2 {
+    color: #0649b8;
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+.about-section4 h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.about-section4-blk {
+    padding:0 5%;
+}
+.about-section4-txt-blk h3 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+}
+.about-section4-txt-blk p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+}
+.about-section4-img img {
+    width: 110px;
+}
+.about-page .values-div2 {
+    text-align: center;
+}
+.values-div {
+    width: 100%;
+    float: left;
+    padding: 6% 0;
+}
+.value-container {
+    width: 83%;
+    margin: auto;
+}
+.val-p-icon {
+    text-align:left;
+}
+.val-p-icon img {
+    margin:auto;
+}
+.val-p-icon img {
+    margin: auto;
+    max-width: 200px;
+}
+.values-div1 {
+    width:75%;
+    margin-bottom:6%;
+    text-align: center;
+}
+.value-div-txt h3 {
+    color: #0649b8;
+    font-size: 2.3vw;
+    font-family: 'Futura Medium';
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+.value-div-txt h4 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.value-div-txt p {
+    color: #272626;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+.val-blk {
+    width: 19%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.val-blk img {
+    width:90px;
+}
+.val-blk h5 {
+    color: #272626;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+.associate-hdg h3 {
+    color: #0649b8;
+    font-size: 22px;
+    font-family: 'Futura Medium';
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+.associate-hdg h3 img {
+    width: 21px;
+    margin-left: 20px;
+    margin-top: -3px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.associate-hdg h3 a:hover {
+    color: #0649b8;
+}
+.associate-hdg h3 a:hover img {
+    margin-left: 25px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+/*About us css end*/
+
+/*Contact us css start*/
+
+/* ++Contact Us section1++ */
+.contact-page-banner {
+    background: url(../images/contact-us/contact-bg.jpg) no-repeat center left;
+    background-size: cover;
+    position: relative;
+    padding: 15% 8% 70px;
+}
+.contact-social-icons {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    right: 40px;
+}
+.contact-social-icons ul li{
+    padding:5px 0;
+}
+.contact-page-banner h1 {
+    color: #fff;
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+.contact-address-blocks {
+    width: 700px;
+}
+.add-block {
+    background-color: #fff;
+    width: 320px;
+    display: inline-block;
+    border-radius: 13px;
+    padding: 20px 35px;
+    text-align: left;
+    margin-right: 17px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.add-block div {
+    padding-left: 65px;
+    position: relative;
+    height: 56px;
+    margin-bottom: 16px;
+}
+.add-block img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.add-block h3 {
+    font-family: 'Futura Medium';
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.add-block span.bordr {
+    width: 40px;
+    height: 1px;
+    background-color: #e1e1e1;
+    display: inline-block;
+}
+.add-block h5 {
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.4;
+    color: #000;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+.add-block p {
+    font-family: 'Futura Medium';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    color:#000;
+    letter-spacing: 0.5px;
+}
+.add-block p a {
+    color:#000;
+}
+/* --Contact Us section1-- */
+
+/* ++Contact Us section2++ */
+.contact-section2 {
+    width:100%;
+    float:left;
+}
+.contact-section2-container {
+    padding: 70px 9%;
+    border-bottom: 1px solid #c9c9c9;
+}
+.contact-section2-container .nav-pills {
+    text-align: center;
+    margin: 30px 0;
+}
+.contact-section2-container .nav-pills li {
+    float:none;
+    display:inline-block;
+}
+.contact-section2-container h2 {
+    color: #000;
+    font-size: 2.5vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.contact-section2-container h4 {
+    font-family: 'Futura Medium';
+    font-size: 17px;
+    opacity: 0.6;
+    color: #000;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.btn-send {
+    background-color:#0045b6;
+    color:#fff;
+}
+.contact-section2-lt-form p {
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.contact-section2-lt-form form input, .contact-section2-lt-form form select, .contact-section2-lt-form form textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #c6c6c6;
+    color: #707070;
+    padding: 12px 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+.contact-section2-lt-form {
+    padding-right: 6%;
+    padding-left:0;
+}
+.contact-section2-lt-form span {
+    font-size: 10px;
+    position: relative;
+    top: -9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contact-section2-container .nav-pills li a {
+    background-color: transparent;
+    border: 1px solid #0045b6;
+    color: #0045b6;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 11px 10px;
+    font-size: 13px;
+    font-family: 'Futura Medium';
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    outline: none !important;
+}
+.contact-section2-container .nav-pills li.active a {
+    background-color: #0045b6;
+    color:#fff;
+}
+.btn-send {
+    background-color: #0045b6;
+    border:1px solid #0045b6;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-family: 'Futura Medium';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    outline: none !important;
+}
+.contact-section2-lt-form form textarea {
+    height:100px;
+}
+.contact-section2-rt-txt h6 {
+    font-family: 'Futura Medium';
+    font-size: 13px;
+    letter-spacing: 2.2px;
+}
+.contact-section2-rt-txt h3 {
+    font-family: 'Futura Medium';
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    color: #0045b6;
+    margin: 15px 0;
+}
+.contact-section2-rt-txt p {
+    font-family: canada-type-gibson, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #707070;
+}
+.contact-section2-rt-txt p span {
+    color: #000;
+}
+.contact-tnc-div {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 13px;
+}
+.contact-tnc-div h4 {
+    text-align: left;
+    opacity: 1;
+    margin-bottom: 7px;
+}
+.contact-tnc-div p {
+    font-weight:300;
+    font-size:12px;
+}
+.contact-section2-lt-form form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #707070;
+}
+.contact-section2-lt-form form ::-moz-placeholder { /* Firefox 19+ */
+  color: #707070;
+}
+.contact-section2-lt-form form :-ms-input-placeholder { /* IE 10+ */
+  color: #707070;
+}
+.contact-section2-lt-form form :-moz-placeholder { /* Firefox 18- */
+  color: #707070;
+}
+/* --Contact Us section2-- */
+
+/*Contact us css end*/
+
+/*Energy Efficiency css start*/
+.energy-efficiency .commercial-section1 {
+    padding: 17% 9%;
+    background: url(../images/energy-efficiency/bg-energy-efficiency.jpg) no-repeat center center;
+    background-size: cover;
+}
+.energy-efficiency-section2 {
+    width: 100%;
+    float: left;
+    padding: 40px 5%;
+}
+.energy-efficiency .button-div a.button-explore {
+    width: 225px;
+}
+.energy-efficiency-section2 h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding:0 15px;
+}
+.energy-efficiency-section2 h3 {
+    color: #0649b8;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 23px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    padding:0 15px;
+    letter-spacing: 1px;
+}
+.energy-efficiency-section2-blk {
+    margin: 25px 0;
+}
+.energy-efficiency-section2-blk img {
+    border-radius:10px;
+}
+.energy-efficiency-section2-blk h3 {
+    padding: 0;
+    margin-bottom: 16px;
+    font-size: 23px;
+    color: #000;
+    opacity: 0.4;
+}
+.energy-efficiency .about-section3 .d-flex {
+    align-items: center;
+}
+.energy-efficiency-section2-blk p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 15px;
+    color:#000;
+    opacity:0.8;
+}
+.energy-efficiency .about-section3 {
+    padding: 5% 5.5%;
+    background-color: #fcfcfc;
+}
+.energy-efficiency .about-section3-txt p {
+    font-size: 16px;
+    opacity:0.6;
+}
+.ifa-img p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom:0;
+    line-height: 1.5;
+}
+.energy-efficiency .row.values-div2 {
+    text-align: center;
+}
+.efi-blks {
+    width: 32%;
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    padding: 0 15px;
+    vertical-align: top;
+    padding-left: 80px;
+    position:relative;
+}
+.efi-blks img {
+    width: 63px;
+    position: absolute;
+    left: 0;
+}
+.efi-blks h5 {
+    font-size: 14.5px;
+    line-height: 1.5;
+}
+.energy-efficiency .values-div1 {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.energy-efficiency .row.values-div2 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.row.values-div3 {
+    width: 55%;
+    margin-top: 40px;
+}
+.energy-efficiency .commercial-section1 {
+    padding: 17% 9%;
+    background: url(../images/energy-efficiency/bg-energy-efficiency.jpg) no-repeat center center;
+    background-size: cover;
+}
+.energy-efficiency-section2 {
+    width: 100%;
+    float: left;
+    padding: 40px 5%;
+}
+.energy-efficiency-section2 .row {
+    margin:0 -1.5% !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.energy-efficiency-section2 .row .col-lg-4 {
+    margin-left: -1px;
+}
+.energy-efficiency-section2 h4 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding:0 15px;
+}
+.energy-efficiency-section2 h3 {
+    color: #0649b8;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 23px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    padding:0 15px;
+    letter-spacing: 1px;
+}
+.energy-efficiency-section2-blk {
+    margin: 25px 0;
+    padding: 0 5%;
+}
+.energy-efficiency-section2-blk img {
+    border-radius: 10px;
+    width: 100%;
+}
+.energy-efficiency-section2-blk h3 {
+    padding: 0;
+    margin-bottom: 16px;
+    font-size: 23px;
+    color: #000;
+    opacity: 0.4;
+}
+.energy-efficiency .about-section3 .d-flex {
+    align-items: center;
+}
+.energy-efficiency-section2-blk p {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 15px;
+    color:#000;
+    opacity:0.8;
+}
+.energy-efficiency .about-section3 {
+    padding: 5% 5.5%;
+    background-color: #fcfcfc;
+}
+.energy-efficiency .about-section3-txt p {
+    font-size: 16px;
+    opacity:0.6;
+}
+.ifa-img p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom:0;
+    line-height: 1.5;
+}
+.energy-efficiency .row.values-div2 {
+    text-align: center;
+}
+.efi-blks {
+    width: 32%;
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    padding: 0 15px;
+    vertical-align: top;
+    padding-left: 80px;
+    position:relative;
+}
+.efi-blks img {
+    width: 63px;
+    position: absolute;
+    left: 0;
+}
+.efi-blks h5 {
+    font-size: 14.5px;
+    line-height: 1.5;
+}
+.energy-efficiency .values-div1 {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.energy-efficiency .row.values-div2 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.row.values-div3 .form-div {
+    margin: 10px 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.adr-field textarea {
+    width: 94.5% !important;
+}
+.city-field , .state-field , .area-field {
+    width: 29.88% !important;
+}
+.row.values-div3 .form-div .form-inp {
+    width: 46%;
+    margin:0 1%;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #9e9e9e;
+    height: 42px;
+    color: #000;
+    opacity: 0.6;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 13px;
+    outline: none !important;
+}
+.row.values-div3 .form-div button, .row.values-div3 .form-div a {
+    width: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #0649b8;
+    border-radius: 5px;
+    margin: 0 1%;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    height: 45px;
+    line-height: 1.5;
+    text-decoration:none !important;
+    outline:none !important;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.row.values-div3 .form-div button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.row.values-div3 .form-div span {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Futura Medium';
+    font-weight: 300;
+    opacity: 0.7;
+    margin-top: 10px;
+    display: block;
+}
+.row.values-div3 .form-div button {
+    background-color:#0045b6;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+}
+.row.values-div3 .form-div button:hover {
+    background-color:transparent;
+    color:#0045b6;
+}
+.row.values-div3 .form-div a {
+    background-color:transparent;
+    color:#0045b6;
+    line-height:25px;
+}
+.row.values-div3 .form-div a:hover {
+    background-color:#0045b6;
+    color:#fff;
+}
+.form-inp.in::-webkit-input-placeholder {
+    color: #a01505;
+}
+/*Energy Efficiency css end*/
+
+/* Suppliers css start */
+
+.suppliers-section2.section2 {
+    width: 100%;
+    float: left;
+    padding: 50px 22% 50px 9%;
+    position: relative;
+}
+.suppliers-section2-rt-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    text-align: right;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.suppliers-section2-rt-img img {
+    width: auto;
+    height: 100%;
+}
+.suppliers-section2-div2 {
+    padding-right: 50px;
+}
+.suppliers-section2-div2 p {
+    font-family: 'Futura Medium';
+    color: #000;
+    margin-bottom: 8%;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.suppliers-section2-div2 .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.suppliers-section2-div2 .row .col-lg-3 {
+    margin-left: -1px;
+    text-align: center;
+    padding: 40px 10px;
+    vertical-align: middle;
+}
+.suppliers-section2-div2 .row .col-lg-3 img {
+    width: auto;
+    height: auto;
+    max-height: 45px;
+    max-width: 150px;
+}
+
+/* Suppliers css end */
+
+/* get a quote popup start*/
+.about-page .button-explore {
+    cursor: pointer;
+}
+.bg-modalQuoteBody {    
+    background: url('../images/get-quote-bg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    min-height: 300px;
+}
+/* #myModalQuote .modal-dialog {
+    width: 70%;
+} */
+#myModalQuote .modal-dialog {
+    width: 70%;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(-50%,-50%);
+}
+#myModalQuote .modal-content, #myModalQuote .modal-body, #myModalQuote .modalQuoteBody {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+.modalQuoteBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+.modalrt-div {
+    text-align: left;
+    padding: 50px;
+    padding-top: 60px;
+}
+.modalQuoteBody h4 {
+    color: #0649b8;
+    font-size: 2.2vw;
+    font-family: 'Futura Medium';
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.modalrt-div div {
+    display: block;
+}
+.modalrt-div div input.inp-txt {
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.modalQuoteBody h5 , .modalQuoteBody div {
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.modalQuoteBody h5 {
+    margin-bottom: 18px;
+}
+.modalQuoteBody input[type=radio] {
+    margin-top: 0;
+    margin-right: 5px;
+}
+.inp-radio {
+    margin: 10px 0;
+}
+.modalQuoteBody .btn-get-in-touch {
+    margin-left: 0;
+    width: 200px;
+    margin-top: 20px;
+}
+.modalQuoteBody .btn-get-in-touch:before {
+    content: 'submit';
+}
+#myModalQuote .modal-body .close {
+    opacity: 1;
+    outline: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+#myModalQuote .modal-body .close img {
+    width: 25px;
+}
+.area_of_interest_select {
+    border: 0;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+    padding: 6px 0;
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    outline: none !important;
+}
+.area_of_interest_select option {
+    padding: 6px 0px;
+    font-size: 13.5px;
+}
+/* get a quote popup end */
+
+/* cms page css :start */
+.cms-page {
+    font-family: 'Futura Medium';
+    color: #0a0a0a;
+}
+.cms-page .commercial-section1 {
+    padding: 200px 0;
+    text-align: center;
+}
+.cms-section2 {
+    width: 100%;
+    float: left;
+    padding: 40px 7%;
+    border-bottom: 1px solid #dddfe7;
+}
+.cms-section2 h4 {
+    font-size: 20px;
+    color: #0649b8;
+}
+.cms-section2 ol > li {
+    margin: 20px 0;
+    color: #0649b8;
+}
+.cms-section2 p {
+    margin: 15px 0;
+}
+.cms-section2 p, .cms-section2 ul li {
+    color: #0a0a0a;
+    line-height: 1.8;
+}
+.cms-section2 ul {
+    padding-left: 25px;
+}
+/* cms page css :end */
+
+
+/*Responsive css start*/
+
+@media (max-width:1280px) {
+/*Responsive Homepage css start*/
+.slider-our-suppliers img {
+    max-height: 50px;
+}
+.homepage-section6 {
+    padding: 12% 0;
+}
+.bhomepage-section2-service-type1 , .bhomepage-section2-service-type2 {
+    min-height:500px;
+}
+/*Responsive Homepage css end*/
+
+/*Responsive Commercial Energy css start*/
+.commercial-section2-div1 {
+    margin-bottom: 35%;
+}
+/*Responsive Commercial Energy css end*/
+
+/*Responsive Residential page css start*/
+.creditscore-block {
+    height:225px;
+    padding:20px 20px;
+}
+.creditscore-block h3 a {
+    font-size: 20px;
+}
+/*Responsive Residential page css end*/
+}
+
+
+@media (max-width:1160px) {
+/*Responsive Commercial Energy css start*/
+.commercial-section2 {
+    padding: 7% 0;
+}
+.commercial-section2-div1 {
+    margin-bottom: 25%;
+}
+/*Responsive Commercial Energy css end*/
+
+/*Responsive About Us page css start*/
+.val-p-icon img {
+    max-width: 150px;
+}
+.value-div-txt h3 {
+    font-size: 26px;
+}
+/*Responsive About Us page css end*/
+
+/*Responsive Energy Efficiency css start*/
+.energy-efficiency-section2 .row {
+    margin: 0 0 !important;
+}
+.energy-efficiency-section2-blk {
+    padding: 0 0;
+}
+.efi-blks h5 {
+    margin: 0;
+}
+.energy-efficiency-section2 h3 {
+    font-size:26px;
+}
+/*Responsive Energy Efficiency css end*/
+}
+
+
+@media (max-width:1100px) {
+/*Responsive Homepage css start*/
+.homepage-section1 h2 {
+    font-size:30px;
+}
+.homepage-section1 p {
+    font-size:16px;
+}
+.homepage-section2-services h2 {
+    font-size:26px;
+}
+.homepage-section2-service-types h3 {
+    font-size:26px;
+}
+.homepage-section2-service-types p {
+    font-size:17px;
+}
+.homepage-section3-part1 h3 , .homepage-section3-part2 h2 {
+    font-size:26px;
+}
+.slider-what-makes-different .item div.slider-item {
+    height: 320px;
+}
+.slider-what-makes-different .item h4 {
+    font-size: 18px;
+}
+.get-best-energy-rate-div-poweredby {
+    bottom: 13px;
+    font-size:13px;
+}
+.get-best-energy-rate-div-txt {
+    width: 345px;
+}
+.get-best-energy-rate-div-txt h2 {
+    font-size: 28px;
+}
+.get-best-energy-rate-div-txt p {
+    font-size: 16px;
+}
+.get-best-energy-rate-div-poweredby span {
+    font-size: 15px;
+}
+.homepage-section5 h2{
+    font-size:28px;
+}
+.homepage-section5 p {
+    font-size:16px;
+}
+.homepage-section6-txt {
+    width: 380px;
+}
+.homepage-section6-txt h2 {
+    font-size:28px;
+}
+.homepage-section6-txt p {
+    font-size:14px;
+}
+/*Responsive Homepage css end*/
+
+/*Responsive Commercial Energy css start*/
+.commercial-section1 h2 {
+    font-size:30px;
+}
+.commercial-section1 p {
+    font-size: 16px;
+}
+.commercial-section2-txt-div h2 {
+    font-size:26px;
+}
+.commercial-section3-div1 h2 {
+    font-size:26px;
+}
+.commercial-section4 h2 {
+    font-size:26px;
+}
+/*Responsive Commercial Energy css end*/
+
+/*Responsive Residential page css start*/
+.commercial-section2-rt-innerdiv {
+    padding-left: 25%;
+}
+.commercial-section2-rt-innerdiv .blk-div {
+    width:320px;
+}
+.commercial-section2-rt-innerdiv .blk-div h3 {
+    padding:20px;
+}
+/*Responsive Residential page css end*/
+
+/*Responsive About Us page css start*/
+.about-section2-part2 h2{
+    font-size:24px;
+}
+.about-section3-txt h2 , .about-section4 h2 {
+    font-size:26px;
+}
+.values-div2 {
+    text-align: center;
+}
+.val-blk {
+    width: 32%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+/*Responsive About Us page css end*/
+
+/*Responsive Contact us css start*/
+.contact-social-icons img {
+    width:40px;
+}
+.contact-page-banner h1 {
+    font-size: 26px;
+}
+.add-block h3 {
+    font-size: 20px;
+}
+.add-block p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.add-block {
+    width: 300px;
+    padding: 20px 30px;
+    margin-right: 15px;
+}
+.add-block img {
+    width: 45px;
+    height: 45px;
+}
+.add-block div {
+    padding-left: 55px;
+    height: 46px;
+}
+.contact-section2-rt-txt h3 {
+    font-size: 22px;
+}
+.contact-section2-lt-form p {
+    font-size: 16px;
+}
+/*Responsive Contact us css end*/
+
+.suppliers-section2-div2 .row .col-lg-3 img {
+    max-height: 30px;
+    max-width: unset;
+}
+}
+
+
+@media (max-width:991px) {
+/*Responsive Homepage css start*/
+.homepage-section1 h2 {
+    font-size: 28px;
+}
+.bhomepage-section2-service-type1, .bhomepage-section2-service-type2 {
+    min-height: 430px;
+}
+.homepage-section2-services {
+    padding:50px 50px;
+}
+.bg-get-best-energy-rate-div {
+    background: url(../images/homepage-bg-section4.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 540px;
+}
+.homepage-section5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.homepage-section6-txt {
+    width: 340px;
+}
+.homepage-section6-txt h2 {
+    font-size: 26px;
+}
+/*Responsive Homepage css start*/
+
+/*Responsive Commercial Energy css start*/
+.commercial-section1 h2 {
+    font-size:28px;
+}
+.commercial-section1 {
+    padding: 130px 9%;
+}
+.commercial-section2-rt-img img {
+    opacity: 0.5;
+}
+/*Responsive Commercial Energy css end*/
+
+/*Responsive Residential page css start*/
+.residential-energy-page .commercial-section1 h2 span {
+    font-size:25px;
+}
+.commercial-section2.section2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.commercial-section2-rt-img {
+    position: relative;
+    right: unset;
+    top: unset;
+    height: unset;
+    width: 100%;
+    z-index: 9;
+}
+.commercial-section2-txt-div {
+    width:100%;
+    margin-left:0;
+}
+.commercial-section2-rt-innerdiv {
+    padding-left: 0;
+    position: relative;
+    right: unset;
+    height: unset;
+    top: unset;
+    margin-top: 35px;
+}
+.commercial-section2-txt-div img.visible-sm.visible-xs {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.commercial-section2-div1 {
+    margin-bottom: 20px;
+}
+.commercial-section2-rt-innerdiv .blk-div {
+    width: 100%;
+    box-shadow: 0px 17px 28px #e1e1e1;
+}
+.commercial-section2-rt-innerdiv .blk-div h4 {
+    font-size:18px;
+}
+.commercial-section2-rt-innerdiv .blk-div h3 {
+    font-size: 20px;
+}
+.commercial-section2-rt-innerdiv .blk-div h2 {
+    font-size:30px;
+}
+.commercial-section2-rt-innerdiv .blk-div .btn-click-here {
+    padding: 16px 20px;
+}
+/*Responsive Residential page css end*/
+
+/*Responsive About Us page css start*/
+.about-section2-part1 {
+    padding: 0;
+}
+.about-section2-part1 .col-lg-4 {
+    padding: 0px;
+}
+.about-section2-txt-blk1 {
+    margin-top: 0px;
+}
+.about-section2-blk2 {
+    padding: 40px 20px;
+    margin-bottom: 23px;
+}
+.about-section2-txt-blk2 h3 {
+    font-size: 20px;
+}
+.about-section2-txt-blk2 p {
+    font-size: 15px;
+}
+.about_slider {
+    margin-top: 0;
+}
+.about-section2-blk {
+    padding: 0px;
+}
+.about_slider .items:nth-child(even) .about-section2-txt-blk1 {
+    background-color: #1b4a82;
+}
+.about-section3-txt p {
+    font-size: 15px;
+}
+.about-section3 .d-flex .col-lg-8 {
+    margin-left: 0px;
+    width: 100%;
+}
+.about-section3-img {
+    height: 300px;
+    margin-bottom: 25px;
+}
+.about-section4 h4 {
+    margin-bottom:30px;
+}
+.about-section4-blk {
+    padding: 0;
+    margin-bottom:25px;
+}
+.about-section4-txt-blk h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+.about-section4-txt-blk p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.values-div1 {
+    width: 90%;
+    margin-bottom: 40px;
+}
+/*Responsive About Us page css end*/
+
+/*Responsive Contact us css start*/
+.contact-page-banner {
+    padding-top:150px;
+}
+.contact-section2-lt-form {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 15px;
+}
+.contact-social-icons {
+    position: relative;
+    height: unset;
+    right: unset;
+    display: block;
+    margin-bottom:20px;
+}
+.contact-social-icons ul li {
+    padding: 0px 2px;
+    display: inline-block;
+}
+.contact-page-banner h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.contact-social-icons img {
+    width: 35px;
+}
+.contact-section2-container h2 {
+    font-size:22px;
+}
+/*Responsive Contact us css end*/
+
+/*Responsive Energy Efficiency css start*/
+.ifa-img {
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.energy-efficiency .row.values-div2 {
+    width: 100%;
+    padding: 0 40px;
+}
+.row.values-div3 {
+    width: 65%;
+    margin-top: 30px;
+}
+.row.values-div3 .form-div {
+    margin: 0px 0;
+}
+.energy-efficiency-section2 h3 {
+    font-size:22px;
+}
+.adr-field textarea {
+    width: 100% !important;
+}
+.city-field, .state-field, .area-field {
+    width: 100% !important;
+}
+/*Responsive Energy Efficiency css end*/
+
+.suppliers-section2-rt-img {
+    display: none;
+}
+.suppliers-section2.section2 {
+    padding: 30px 9%;
+}
+.suppliers-section2-div2 {
+    padding-right: 0px;
+}
+
+/* get a quote popup start*/
+#myModalQuote .modal-dialog {
+    width: 85%;
+}
+.modalrt-div {
+    padding: 35px;
+    padding-top: 45px;
+}
+.modalQuoteBody h4 {
+    margin-bottom: 20px;
+}
+.modalQuoteBody h5, .modalQuoteBody div , .modalrt-div div input.inp-txt {
+    font-size: 14px;
+}
+.modalQuoteBody h4 {
+    font-size: 22px;
+}
+/* get a quote popup end*/
+
+}
+
+
+@media (max-width:768px) {
+/*Responsive Homepage css start*/
+.homepage-section1 {
+    padding: 120px 25px;
+}
+.homepage-section1 h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.homepage-section1 p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.homepage-section2-services h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.homepage-section2-services p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.homepage-section1 a.scroll-down {
+    left:25px;
+}
+.homepage-section2-services {
+    padding: 30px 25px;
+    text-align: left;
+}
+.homepage-section2-service-types {
+    display: block;
+}
+.bhomepage-section2-service-type1, .bhomepage-section2-service-type2 {
+    min-height: 250px;
+    width: 100%;
+    padding: 65px 25px;
+    text-align: left;
+    justify-content: left;
+}
+.homepage-section2-service-types h3 {
+    font-size: 24px;
+}
+.homepage-section2-service-types p {
+    font-size: 16px;
+}
+.homepage-section3-part1 h3 {
+    font-size: 24px;
+}
+.homepage-section3-part2 h2 {
+    font-size: 22px;
+    width: 260px !important;
+    padding-right: 40px;
+    position: relative;
+}
+.homepage-section3-part2 h2 img {
+    width: 33px;
+    margin-left: 0;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.homepage-section3-part1 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+    padding: 0 25px;
+}
+.homepage-section3-part2 {
+    padding-left: 15px;
+}
+.p-img {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.slider-what-makes-different .item div.slider-item {
+    height: 290px;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    opacity: 0.25;
+}
+.slider-what-makes-different .item h4 {
+    font-size: 17px;
+}
+.get-best-energy-rate-div-txt {
+    width: 310px;
+}
+.get-best-energy-rate-div-txt h2 {
+    font-size: 24px;
+}
+.get-best-energy-rate-div-txt p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.homepage-section5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+.homepage-section5 h2 {
+    font-size: 24px;
+    padding-right: 25px;
+}
+.homepage-section5 p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-right: 25px;
+}
+.slider-our-suppliers .item {
+    padding: 10px 10px;
+}
+.slider-our-suppliers img {
+    max-height: 45px;
+}
+.associate-hdg {
+    padding: 0 20px;
+}
+.associate-hdg h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.homepage-section6 {
+    background: #fff;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.bg-section6 {
+    width:100%;
+}
+.homepage-section6-txt {
+    width: 340px;
+    color: #0649b8;
+    width: 100%;
+    margin: 0;
+    padding: 0 25px;
+    margin-top: 30px;
+}
+.homepage-section6-txt h4 {
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.homepage-section6-see-btn:after {
+    content: '';
+    background: url(../images/thin-arr-rt-blue.png) no-repeat center center;
+    background-size: 8px;
+    margin-left: 5px;
+}
+.homepage-section6-txt h4 span {
+    margin-right: 17px;
+}
+.homepage-section6-txt h4 span:last-child {
+    margin-right:0;
+}
+.homepage-section6-txt h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.homepage-section6-txt p {
+    color:#0a0a0a;
+}
+a.homepage-section6-btn {
+    color: #0649b8;
+    border-color: #0649b8;
+    width: 120px;
+}
+a.homepage-section6-btn:hover {
+    background-color: #0045b6;
+    color: #fff;
+}
+.homepage-section6-see-btn {
+    color:#0649b8 !important;
+}
+/*Responsive Homepage css end*/
+
+
+/*Responsive Commercial Energy css start*/
+.commercial-section1 h2 {
+    font-size:24px;
+}
+.commercial-section1 {
+    padding: 120px 25px;
+}
+.commercial-section1:before {
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.2);
+}
+.commercial-section1 .wow {
+    position:relative;
+    z-index:1;
+}
+.commercial-section1 p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.commercial-section1 .button-div a.button-explore {
+    width:230px;
+    display:block;
+}
+.btn-get-in-touch {
+    margin-left:0;  
+    margin-top:20px;  
+}
+.commercial-section2-txt-div {
+    width: 100%;
+    margin-left: 0;
+}
+.commercial-section2 {
+    padding: 40px 25px;
+}
+.commercial-section2-div1 {
+    margin-bottom: 0;
+}
+.commercial-section2-txt-div h2 {
+    font-size:24px;
+}
+.commercial-section2-div2 p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.commercial-section2 .button-div a.button-explore {
+    display:block;
+}
+.commercial-section3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.commercial-section3 .slider-industries .slick-list {
+    padding-right:50px !important;
+}
+.commercial-section3-container {
+    width: 100%;
+    position: relative;
+}
+.commercial-section3-div1 {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right:70px;
+}
+.commercial-section3-container span {
+    right: 30px;
+}
+.commercial-section3-div1 h2 {
+    font-size:24px;
+}
+.commercial-section3-div2 {
+    padding-left: 0px;
+}
+.commercial-section4 h2 {
+    font-size:24px;
+}
+.commercial-section4 h2 span {
+    font-size: 32px;
+    line-height: 1.3;
+}
+.commercial-section4 {
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:25px;
+}
+.patrnrship-pattern {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 28px;
+}
+.commercial-section3 .slider-industries .item div.slider-item {
+    height: unset; 
+    min-height: 400px;
+}
+.commercial-section3 .slider-industries .item p {
+    line-height:1.5;
+    font-size: 14px;
+}
+.slider-industries {
+    margin-right: 0;
+}
+.slider-industries .slick-dots {
+    bottom: 10px;
+}
+.slider-industries .item h4 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.commercial-section4 p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-right: 25px;
+    text-align: left;
+}
+.commercial-section4 h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*Responsive Commercial Energy css end*/
+
+/*Responsive Residential page css start*/
+.residential-energy-page .commercial-section1 h2 span {
+    font-size:20px;
+}
+.residential-section3 .commercial-section3-div2 {
+    padding: 0 0;
+    margin-top: 35px;
+}
+.residential-section3.commercial-section3 {
+    padding-left:30px;
+    padding-right:30px;
+}
+.commercial-section3-container.residential-section3-container {
+    padding: 0 10px;
+}
+.creditscore-block {
+    height: 200px;
+}
+.creditscore-block img {
+    max-width: 100%;
+    max-height: 45px;
+}
+.creditscore-block h3 a {
+    font-size: 18px;
+}
+.creditscore-block h3 a img {
+    width: 20px;
+}
+.residential-section3-container .nav-pills>li {
+    margin-right: -2px;
+}
+.residential-section3-container .nav-pills>li:nth-child(1) {
+    width:42%;
+}
+.residential-section3-container .nav-pills>li:nth-child(2) {
+    width:58%;
+}
+.residential-section3-container .nav-pills>li:nth-child(1) a {
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    padding:14px 25px;
+}
+.residential-section3-container .nav-pills>li:nth-child(2) a {
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.residential-section3-container .nav-pills>li>a {
+    padding:14px 32px;
+}
+/*Responsive Residential page css end*/
+
+/*Responsive About Us page css start*/
+.about-page .commercial-section1 {
+    padding: 120px 25px;
+}
+.about-section2-part2 h2{
+    font-size:22px;
+}
+.about-section2-part2 .col-lg-4 {
+    padding: 0px 20px;
+}
+.about-section3-txt h2 , .about-section4 h2 {
+    font-size:24px;
+}
+.about-section2-blk img {
+    width: 100%;
+    /* display: none; */
+}
+.about-section2-txt-blk1 h4 {
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-top: 0;
+}
+.about-section2-txt-blk1 p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.about-section2-part2 {
+    padding: 30px 0;
+}
+.about-section3 {
+    padding: 30px 0;
+}
+.about-section3-txt {
+    padding-right: 0px;
+}
+.about-section3 .d-flex .col-lg-8 {
+    padding: 0;
+}
+.about-section3-txt p {
+    padding: 0 20px;
+}
+.about-section3-txt h4 {
+    padding: 0 20px;
+}
+.about-section3-txt h2 {
+    padding: 0 20px;
+}
+.values-div {
+    padding: 35px 0;
+}
+.value-container {
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+}
+.values-div1 {
+    width: 100%;
+}
+.values-div1 .val-p-img {
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+.val-blk img {
+    width: 80px;
+}
+.value-div-txt h3 {
+    font-size: 24px;
+}
+/*Responsive About Us page css end*/
+
+/*Responsive Contact us css start*/
+.contact-page-banner {
+    padding: 140px 25px 50px 25px;
+}
+.contact-section2-container {
+    padding: 30px 25px;
+}
+.add-block {
+    width: 270px;
+    padding: 15px 20px;
+    margin-right: 15px;
+}
+.add-block h3 {
+    font-size: 18px;
+}
+/*Responsive Contact us css end*/
+
+.suppliers-section2.section2 {
+    padding: 30px 30px;
+}
+.suppliers-section2-div2 .row .col-lg-3 {
+    margin-left: -1px;
+    padding: 20px 10px;
+}
+.suppliers-section2-div2 .row .col-lg-3 img {
+    max-height: 30px;
+    max-width: 120px;
+}
+
+/* get a quote popup start*/
+#myModalQuote .modal-dialog {
+    width: auto;
+}
+.bg-modalQuoteBody {
+    height: 0px;
+    min-height: 0;
+}
+#myModalQuote .col-50 {
+    width: 100%;
+}
+/* get a quote popup end*/
+
+/* cms page css :start */
+.cms-section2 {
+    padding: 30px;
+}
+.cms-page .commercial-section1 {
+    padding: 140px 0;
+    text-align: center;
+}
+.cms-section2 ol {
+    padding-left: 0px;
+}
+.cms-section2 ol > li {
+    margin: 0px 0;
+}
+/* cms page css :end */
+}
+
+@media (max-width:620px) {
+
+/* Responsive homepage css start*/
+.homepage .values-div1 {
+    padding: 0 0px;
+    margin-bottom: 10px;
+}
+.homepage .values-div1 .value-div-txt h3 {
+    font-size: 22px;
+}
+.homepage .values-div1 .value-div-txt h4 {
+    font-size: 18px;
+}
+/* Responsive homepage css end*/
+
+/*Responsive Contact us css start*/
+.contact-page-banner {
+    padding-bottom: 0;
+    margin-bottom: 60px;
+}
+.contact-address-blocks {
+    width: 100%;
+    position: relative;
+    margin-top: -40px;
+    bottom: -50px;
+}
+.add-block {
+    width:100%;
+    display: block;
+    margin-right: 0px;
+    box-shadow: 0px 0px 10px #707070;
+}
+/*Responsive Contact us css end*/
+
+/*Responsive Energy Efficiency css start*/
+.energy-efficiency-section2 {
+    padding: 30px 5px;
+}
+.energy-efficiency-section2-blk {
+    margin: 10px 0;
+}
+.energy-efficiency .about-section3 {
+    padding: 25px 5px;
+}
+.energy-efficiency .about-section3-txt h4 , .energy-efficiency .about-section3-txt h2 , .energy-efficiency .about-section3-txt p {
+    padding:0;
+}
+.ifa-img {
+    padding:0;
+    margin-bottom:10px;
+}
+.efi-blks {
+    width: 300px;
+    display: block;
+    margin: 15px auto;
+    height: 60px;
+}
+.energy-efficiency .values-div1 {
+    padding: 0 0px;
+    margin-bottom: 10px;
+}
+.energy-efficiency .values-div1 .value-div-txt h3 {
+    font-size: 22px;
+}
+.energy-efficiency .values-div1 .value-div-txt h4 {
+    font-size: 18px;
+}
+.row.values-div3 {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.row.values-div3 .form-div button, .row.values-div3 .form-div a {
+    width: 160px;
+}
+/*Responsive Energy Efficiency css end*/
+
+/* Responsive about us css start */
+.about-section2-txt-blk1 {
+    height: 120px;
+}
+/* Responsive about us css end */
+}
+
+@media (max-width:560px) {
+/*Responsive Residential page css start*/
+.residential-section3-div2 .col-lg-4 {
+   width:100%;
+}
+.creditscore-block {
+    height: 180px;
+    padding: 10px;
+}
+.creditscore-block a {
+    font-size:13px;
+}
+
+/*Responsive Residential page css end*/
+
+/*Responsive About Us page css start*/
+.val-blk {
+    width: 49%;
+    vertical-align: top;
+}
+.values-div1 {
+    margin-bottom: 30px;
+}
+.values-div1 .val-p-img {
+    width: 120px;
+    margin-top: 30px;
+}
+/*Responsive About Us page css end*/
+}
+
+@media (max-width:480px) {
+/*Responsive Homepage css start*/
+a.button-explore {
+    width: 225px;
+    padding: 15px 10px;
+}
+/*Responsive Homepage css end*/
+
+/*Responsive Residential page css start*/
+.residential-section3.commercial-section3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.commercial-section2-rt-innerdiv .blk-div h2 {
+    font-size: 30px;
+}
+.commercial-section2-rt-innerdiv .blk-div h5 {
+    font-size:23px;
+}
+.residential-section3-container .nav-pills>li>a {
+    padding: 14px 5px !important;
+    font-size: 13px;
+}
+/*Responsive Residential page css end*/
+
+/*Responsive Contact us css start*/
+.contact-section2-container .nav-pills {
+    margin-top: 15px;
+}
+.contact-section2-container .nav-pills li {
+    margin-top: 15px;
+}
+/*Responsive Contact us css end*/
+
+/*Responsive Energy Efficiency css start*/
+.row.values-div3 .form-div .form-inp {
+    width:100%;
+    margin:0;
+    margin-bottom: 15px;
+}
+.row.values-div3 .form-div button, .row.values-div3 .form-div a {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.row.values-div3 .form-div button {
+    margin-bottom:15px;
+    margin-top: 20px;
+}
+.row.values-div3 .form-div select.form-inp {
+    margin-bottom:15px;
+}
+.energy-efficiency .row.values-div2 {
+    padding: 0 0px;
+}
+/*Responsive Energy Efficiency css end*/
+}
+
+
+@media (max-width:360px) {
+/*Responsive Homepage css start*/
+.homepage-section3-part1 h3, .homepage-section3-part2 h2 {
+    width:100%;
+}
+/*Responsive Homepage css end*/
+
+.suppliers-section2-div2 .row .col-lg-3 img {
+    max-height: 30px;
+    max-width: 100px;
+}
+.suppliers-section2-div2 .row {
+    justify-content: center;
+}
+}
+
+/*Responsive css end*/
